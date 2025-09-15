@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Taller de Programacion II - 1er TP </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1> Agregar concepto </h1>
+  <form id="conceptForm">
+    <input type="text" id="nombre" placeholder="Nombre del concepto" required>
+    <textarea id="descripcion" placeholder="Desarrolla el concepto" required></textarea>
+    <button type="submit"> Guardar </button>
+  </form>
+
+  <h2> Conceptos guardados </h2>
+  <ul id="conceptList"></ul>
+  <button onclick="eliminarTodos()"> Eliminar todos </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
